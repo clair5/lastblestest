@@ -4,6 +4,6 @@
 
         <domain includeSubdomains="true">daumcdn.net</domain>
         <domain includeSubdomains="true">dapi.kakao.com</domain>
-        <domain includeSubdomains="true">10.1.4.108</domain>
+        <domain includeSubdomains="true">172.20.10.10</domain>
     </domain-config>
 </network-security-config>

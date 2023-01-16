@@ -46,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("church : "+stamp1);
         int stamp2 = sharedPreferences.getInt("museum",0); // museum 스캔 결과 저장
         System.out.println("museum : "+stamp2);
+        int stamp3 = sharedPreferences.getInt("market",0); // market 스캔 결과 저장
+        System.out.println("market : "+stamp3);
+        int stamp4 = sharedPreferences.getInt("park",0); // park 스캔 결과 저장
+        System.out.println("park : "+stamp4);
+        int stamp5 = sharedPreferences.getInt("yao",0); // yao 스캔 결과 저장
+        System.out.println("yao : "+stamp5);
 
         imageView = (ImageView) findViewById(R.id.imgstampch);
         if(stamp1 == 1) {
@@ -56,6 +62,27 @@ public class MainActivity extends AppCompatActivity {
         }
         imageView = (ImageView) findViewById(R.id.imgstampmu);
         if(stamp2 == 1) {
+            imageView.setVisibility(View.VISIBLE);
+        }
+        else{
+            imageView.setVisibility(View.INVISIBLE);
+        }
+        imageView = (ImageView) findViewById(R.id.imgstampMa);
+        if(stamp3 == 1) {
+            imageView.setVisibility(View.VISIBLE);
+        }
+        else{
+            imageView.setVisibility(View.INVISIBLE);
+        }
+        imageView = (ImageView) findViewById(R.id.imgstampPa);
+        if(stamp4 == 1) {
+            imageView.setVisibility(View.VISIBLE);
+        }
+        else{
+            imageView.setVisibility(View.INVISIBLE);
+        }
+        imageView = (ImageView) findViewById(R.id.imgstampYa);
+        if(stamp5 == 1) {
             imageView.setVisibility(View.VISIBLE);
         }
         else{
@@ -100,6 +127,11 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                SharedPreferences sharedPreferences= getSharedPreferences("stamp", MODE_PRIVATE);
+                SharedPreferences.Editor editor= sharedPreferences.edit();
+                editor.putInt("market",1);
+                editor.commit();
+
                 Intent intent = new Intent(getApplicationContext(),MarketActivity.class);
                 startActivity(intent);
             }
@@ -109,6 +141,11 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                SharedPreferences sharedPreferences= getSharedPreferences("stamp", MODE_PRIVATE);
+                SharedPreferences.Editor editor= sharedPreferences.edit();
+                editor.putInt("yao",1);
+                editor.commit();
+
                 Intent intent = new Intent(getApplicationContext(),YaoActivity.class);
                 startActivity(intent);
             }
@@ -118,6 +155,11 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                SharedPreferences sharedPreferences= getSharedPreferences("stamp", MODE_PRIVATE);
+                SharedPreferences.Editor editor= sharedPreferences.edit();
+                editor.putInt("park",1);
+                editor.commit();
+
                 Intent intent = new Intent(getApplicationContext(),ParkActivity.class);
                 startActivity(intent);
             }

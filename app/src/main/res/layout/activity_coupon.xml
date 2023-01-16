@@ -11,10 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:ems="10"
-        android:gravity="center"
+        android:gravity="left"
         android:inputType="textPersonName"
         android:text="쿠폰함"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,21 +35,24 @@
 
         <LinearLayout
             android:id="@+id/layCoupon"
-            android:layout_width="287dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_width="335dp"
+            android:layout_height="249dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="45dp"
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
             <ImageButton
                 android:id="@+id/imgCouponCH"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/coupon_ch" />
+                android:layout_width="wrap_content"
+                android:layout_height="195dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ecc" />
 
             <Button
                 android:id="@+id/btncon"
-                android:layout_width="69dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:text="사용" />
@@ -58,17 +61,19 @@
 
         <LinearLayout
             android:id="@+id/layCoupon2"
-            android:layout_width="287dp"
-            android:layout_height="204dp"
-            android:layout_marginLeft="60dp"
+            android:layout_width="337dp"
+            android:layout_height="255dp"
+            android:layout_marginLeft="45dp"
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
             <ImageButton
                 android:id="@+id/imgCouponMU"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/coupon_mu" />
+                android:layout_height="197dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/lai" />
 
             <Button
                 android:id="@+id/btncon2"

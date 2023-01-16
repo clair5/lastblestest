@@ -15,8 +15,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888"
-        app:srcCompat="@drawable/main_dg" />
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/mian_back"/>
 
     <Button
         android:id="@+id/btnMu"
@@ -45,10 +45,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintHorizontal_bias="0.764"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="0.633" />
 
     <Button
         android:id="@+id/btnPa"
@@ -65,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintVertical_bias="0.461" />
 
     <Button
         android:id="@+id/btnCh"
@@ -100,15 +100,28 @@
 
     <ImageView
         android:id="@+id/imgMa"
-        android:layout_width="83dp"
-        android:layout_height="59dp"
+        android:layout_width="96dp"
+        android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.43"
-        app:srcCompat="@drawable/ic_baseline_local_grocery_store_24" />
+        app:srcCompat="@drawable/marketa" />
+
+    <ImageView
+        android:id="@+id/imgstampMa"
+        android:layout_width="89dp"
+        android:layout_height="67dp"
+        android:alpha="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406"
+        app:srcCompat="@drawable/marketa" />
 
     <ImageView
         android:id="@+id/imgCh"
@@ -137,27 +150,53 @@
 
     <ImageView
         android:id="@+id/imgYa"
-        android:layout_width="52dp"
-        android:layout_height="58dp"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintHorizontal_bias="0.739"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517"
-        app:srcCompat="@drawable/ic_baseline_medication_24" />
+        app:layout_constraintVertical_bias="0.568"
+        app:srcCompat="@drawable/yao" />
+
+    <ImageView
+        android:id="@+id/imgstampYa"
+        android:layout_width="70dp"
+        android:layout_height="66dp"
+        android:alpha="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544"
+        app:srcCompat="@drawable/yao" />
 
     <ImageView
         android:id="@+id/imgPa"
-        android:layout_width="55dp"
-        android:layout_height="57dp"
+        android:layout_width="81dp"
+        android:layout_height="79dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.387"
-        app:srcCompat="@drawable/ic_baseline_park_24" />
+        app:layout_constraintVertical_bias="0.388"
+        app:srcCompat="@drawable/park" />
+
+    <ImageView
+        android:id="@+id/imgstampPa"
+        android:layout_width="81dp"
+        android:layout_height="79dp"
+        android:alpha="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361"
+        app:srcCompat="@drawable/park" />
 
     <ImageView
         android:id="@+id/imgMu"
@@ -187,7 +226,7 @@
 
     <TextView
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="163dp"
+        android:layout_width="199dp"
         android:layout_height="55dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -196,10 +235,10 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <Button
         android:id="@+id/btnCoupon"

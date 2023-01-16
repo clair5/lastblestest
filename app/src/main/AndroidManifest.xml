@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <!-- 인터넷 퍼미션!! -->
-    <uses-permission android:name="android.permission.INTERNET" /> <!-- ble 퍼미션 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- ble 퍼미션 -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -66,6 +70,9 @@
         <activity android:name=".YaoActivity" />
         <activity android:name=".ParkActivity" />
         <activity android:name=".MapTestC" />
+        <activity android:name=".MapTestM" />
+        <activity android:name=".TabFragment1" />
+        <activity android:name=".TabFragment2" />
         <activity
             android:name=".CouponActivity"
             tools:ignore="DuplicateActivity" />

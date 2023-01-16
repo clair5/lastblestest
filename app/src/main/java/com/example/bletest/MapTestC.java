@@ -35,7 +35,7 @@ public class MapTestC extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_FULL_USER);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://10.1.4.108/testmapc.php");
+        webView.loadUrl("http://172.20.10.10/testmapc.php");
 
         //app thema가 noActionbar 상태에서는 쓰면 CRASH
         //ActionBar actionBar = getSupportActionBar();

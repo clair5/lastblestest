@@ -47,12 +47,12 @@
 
     <TextView
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="222dp"
+        android:layout_width="288dp"
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="근대역사박물관"
-        android:textSize="32sp"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,8 +63,8 @@
 
     <ImageButton
         android:id="@+id/btnX"
-        android:layout_width="57dp"
-        android:layout_height="51dp"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

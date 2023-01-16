@@ -51,7 +51,7 @@ public class MarketActivity extends AppCompatActivity {
 
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://10.1.4.108/testcarousel1.php/");
+        webView.loadUrl("http://172.20.10.10/testcarouselma.php");
 
         //app thema가 noActionbar 상태에서는 쓰면 CRASH
         //ActionBar actionBar = getSupportActionBar();

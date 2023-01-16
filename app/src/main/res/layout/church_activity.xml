@@ -47,8 +47,8 @@
 
     <TextView
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="167dp"
-        android:layout_height="43dp"
+        android:layout_width="197dp"
+        android:layout_height="54dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="계산성당"
@@ -63,15 +63,15 @@
 
     <ImageButton
         android:id="@+id/btnX"
-        android:layout_width="57dp"
-        android:layout_height="51dp"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.022"
         app:srcCompat="@drawable/ic_baseline_close_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
