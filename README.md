@@ -1,4 +1,4 @@
-# lastblestest
+# BleApp
 
 ## :earth_asia: Beacond을 사용한 관광플랫폼 
 ![image](https://user-images.githubusercontent.com/112450618/223955365-4e75e064-d751-4e78-9646-57258adb2aeb.png)
